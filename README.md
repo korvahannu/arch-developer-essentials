@@ -1,5 +1,7 @@
 ## Required before you begin
-> sudo pacman -S archlinux-keyring
+> sudo pacman -S archlinux-keyring reflector
+> 
+> sudo reflector -c [COUNTRY] -a 6 --sort rate --save /etc/pacman.d/mirrorlist
 > 
 > sudo pacman -Syu
 
