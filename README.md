@@ -6,10 +6,12 @@
 > sudo pacman -Syu
 
 ## Recommended essentials
-> yay -S gedit visual-studio-code-bin chromium gimp virtualbox virtualbox-host-modules-arch vlc pinta libreoffice-fresh intellij-idea-community-edition teamspeak zoom webapp-manager git nodejs-lts-gallium jdk-temurin pipewire pipewire-alsa pipewire-jack pipewire-media-session pipewire-pulse htop pfetch neofetch ttf-ms-win10-auto ttf-jetbrains-mono ttf-roboto ntfs-3g qbittorrent cmatrix
+> yay -S gedit visual-studio-code-bin chromium gimp virtualbox virtualbox-host-modules-arch vlc pinta libreoffice-fresh intellij-idea-community-edition teamspeak zoom webapp-manager git nodejs-lts-gallium jdk-temurin pipewire pipewire-alsa pipewire-jack pipewire-media-session pipewire-pulse htop pfetch neofetch ttf-ms-win10-auto ttf-jetbrains-mono ttf-roboto ntfs-3g qbittorrent cmatrix cups hplip system-config-printer
 
-#### Enable pipewire:
+#### Enable services:
 > systemctl enable --user pipewire pipewire-pulse pipewire-media-session
+
+> sudo systemctl enable cups 
 
 #### Rust
 > curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
