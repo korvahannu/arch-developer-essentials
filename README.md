@@ -1,3 +1,13 @@
+## Arch Linux developer essentials and recommendations guide
+![Arch Linux Logo](https://archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png)  
+
+#### Important links
+- [Arch Linux Homepage](https://archlinux.org/ "Arch Linux Homepage")
+- [Arch Linux Wiki](https://wiki.archlinux.org/ "Arch Wiki")
+
+#### Default Prerequisites
+This installation guide assumes that you have installed Arch Linux successfully and that you use an desktop environment or a window manager. This guide is mainly for my personal use to keep track of packages I deem worthy. The final configuration is up to you and you should install only the necessary packages for your environment.
+
 ## Required before you begin
 > sudo pacman -S archlinux-keyring reflector
 > 
@@ -6,7 +16,7 @@
 > sudo pacman -Syu
 
 ## Recommended essentials
-> yay -S visual-studio-code-bin chromium gimp vlc pinta libreoffice-fresh intellij-idea-community-edition git nodejs-lts-gallium jdk-temurin pipewire pipewire-alsa pipewire-jack pipewire-media-session pipewire-pulse htop ntfs-3g cups hplip system-config-printer
+> yay -S visual-studio-code-bin chromium gimp vlc pinta libreoffice-fresh intellij-idea-community-edition git nodejs-lts-gallium jdk-temurin pipewire pipewire-alsa pipewire-jack pipewire-media-session pipewire-pulse htop ntfs-3g cups hplip system-config-printer putty
 > 
 > When prompted to replace pulseaudio with pipewire, say Yes
 
