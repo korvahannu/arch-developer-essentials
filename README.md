@@ -6,12 +6,17 @@
 > sudo pacman -Syu
 
 ## Recommended essentials
-> yay -S gedit visual-studio-code-bin chromium gimp virtualbox virtualbox-host-modules-arch vlc pinta libreoffice-fresh intellij-idea-community-edition teamspeak zoom webapp-manager git nodejs-lts-gallium jdk-temurin pipewire pipewire-alsa pipewire-jack pipewire-media-session pipewire-pulse htop pfetch neofetch ttf-ms-win10-auto ttf-jetbrains-mono ttf-roboto ntfs-3g qbittorrent cmatrix cups hplip system-config-printer
+> yay -S visual-studio-code-bin chromium gimp vlc pinta libreoffice-fresh intellij-idea-community-edition git nodejs-lts-gallium jdk-temurin pipewire pipewire-alsa pipewire-jack pipewire-media-session pipewire-pulse htop ntfs-3g cups hplip system-config-printer
+> 
+> When prompted to replace pulseaudio with pipewire, say Yes
 
-#### Enable services:
+#### Enable services
 > systemctl enable --user pipewire pipewire-pulse pipewire-media-session
 
-> sudo systemctl enable cups 
+> sudo systemctl enable cups
+
+## Other recommendations
+> yay -S gedit virtualbox virtualbox-host-modules-arch pinta teamspeak3 webapp-manager zoom ttf-jetbrains-mono ttf-roboto qbittorrent
 
 #### Rust
 > curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
