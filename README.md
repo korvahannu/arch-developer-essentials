@@ -41,3 +41,6 @@
 > Enable binding on terminal with command: xcape -e 'Super_L=Shift_L|Control_L|Alt_L|Super_L|D'
 > 
 > Add the command mentioned above to be run on startup
+
+#### Great icons and theme sets
+> yay -S matcha-gtk-theme mint-themes mint-themes-legacy papirus-icon-theme-git papirus-maia-icon-theme-git qogir-icon-theme we10x-icon-theme-git zorin-desktop-themes xcursor-simpleandsoft
