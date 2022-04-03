@@ -24,3 +24,15 @@
 > flatpak --user install flathub com.valvesoftware.Steam
 > 
 > flatpak run com.valvesoftware.Steam
+
+#### Make bash auto-completion case insensitive
+> echo 'set completion-ignore-case On' | sudo tee -a /etc/inputrc
+
+#### xfce4 whiskermenu super-key fix
+> set a keyboard shortcut for command xfce4-popup-whiskermenu at keybinding of L_Shift + L_CTRL, L_ALT +Super + D
+> 
+> Install xcape with sudo pacman -S xcape
+> 
+> Enable binding on terminal with command: xcape -e 'Super_L=Shift_L|Control_L|Alt_L|Super_L|D'
+> 
+> Add the command mentioned above to be run on startup
