@@ -1,0 +1,21 @@
+#whiskermenu-button image {
+    -gtk-icon-transform: scale(1);
+}
+#pulseaudio-button image {
+    -gtk-icon-transform: scale(0.6);
+}
+#xfce4-notification-plugin image {
+    -gtk-icon-transform: scale(0.6);
+}
+#xfce4-power-manager-plugin image {
+    -gtk-icon-transform: scale(0.6);
+}
+.tasklist button {
+	padding-left:8px;
+	padding-right:8px;
+	border-left:1px dashed teal;
+}
+.xfce4-panel.background button* 
+{
+    -gtk-icon-transform: scale(0.65);
+}
