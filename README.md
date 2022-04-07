@@ -16,7 +16,7 @@ This installation guide assumes that you have installed Arch Linux successfully 
 > sudo pacman -Syu
 
 ## Recommended essentials
-> yay -S visual-studio-code-bin chromium gimp vlc pinta libreoffice-fresh intellij-idea-community-edition git nodejs-lts-gallium jdk-temurin pipewire pipewire-alsa pipewire-jack pipewire-media-session pipewire-pulse htop ntfs-3g cups hplip system-config-printer putty
+> yay -S visual-studio-code-bin chromium gimp vlc pinta libreoffice-fresh intellij-idea-community-edition git nodejs-lts-gallium jdk-temurin pipewire pipewire-alsa pipewire-jack pipewire-media-session pipewire-pulse htop ntfs-3g cups hplip system-config-printer putty gnome-disk-utility
 > 
 > When prompted to replace pulseaudio with pipewire, say Yes
 
